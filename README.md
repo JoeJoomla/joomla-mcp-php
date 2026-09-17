@@ -1,6 +1,16 @@
 # MCP4Joomla
 
-An MCP server for Joomla 5 and later, written in PHP.
+A STDIO [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) server for Joomla, written in PHP.
+
+**Quick facts**
+
+* Runs on: your computer
+* MCP transport: STDIO
+* Usable with local AI Tools (e.g. Claude Code): ✅ Yes
+* Usable with hosted AI Tools (e.g. ChatGPT): ❌ No
+
+> [!TIP]
+> If you're looking for an MCP server which can be used with hosted AI tools, please see [`MCP4j`](https://github.com/nikosdion/mcp4j).
 
 ## What is this?
 
