@@ -22,7 +22,7 @@ php mcp4joomla.php server --debug
 php mcp4joomla.php server --log=/path/to/file.log
 ```
 
-There are no tests, linters, or CI pipelines configured.
+Tests use PHPUnit with two suites, Unit (mocked HTTP clients, no Joomla needed) and Integration (needs a configured Joomla site, see `tests/integration.config.php.dist`): `composer test` runs both, `composer test:unit` and `composer test:integration` run one. See `TESTING.md`. There are no linters or CI pipelines configured.
 
 ## Required Environment Variables
 
