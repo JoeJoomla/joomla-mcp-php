@@ -12,6 +12,6 @@ log/
 Dockerfile
 .dockerignore
 .gitignore
-CLAUDE.md
+AGENTS.md
 *.phar
 phpunit.xml.dist
